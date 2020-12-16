@@ -1,0 +1,18 @@
+{
+  "name": "uhk-adaptive-mode",
+  "version": "0.0.1",
+  "private": true,
+  "description": "UHK Adaptive Mode for Linux",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint --project tsconfig.json"
+  },
+  "dependencies": {
+    "uhk-usb": "1.0.0",
+    "uhk-common": "1.0.0",
+    "x11": "^2.3.0",
+    "yargs": "16.0.3"
+  }
+}
